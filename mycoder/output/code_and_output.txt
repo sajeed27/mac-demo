@@ -1,0 +1,27 @@
+"""
+import random
+
+# Generate 50 random numbers between 1 and 10000
+random_numbers = [random.randint(1, 10000) for _ in range(50)]
+
+# Calculate sum, average, max, and min
+total_sum = sum(random_numbers)
+average = total_sum / len(random_numbers)
+max_number = max(random_numbers)
+min_number = min(random_numbers)
+
+# Prepare the results
+results = {
+    "Sum": total_sum,
+    "Average": average,
+    "Max": max_number,
+    "Min": min_number
+}
+
+print("Random Numbers:", random_numbers)
+print("Results:", results)
+
+# Output from the code execution
+# Random Numbers: [567, 5502, 6648, 1019, 3687, 7527, 9895, 2488, 4228, 3228, 4185, 2965, 5290, 2975, 3509, 312, 9270, 8858, 5659, 4897, 3495, 4357, 6567, 5284, 9384, 7233, 3258, 1702, 3636, 6758, 7094, 5406, 754, 4220, 4808, 1039, 2597, 2345, 3733, 9639, 2204, 3728, 3163, 7641, 366, 1759, 9500, 3310, 3761, 8939]
+# Results: {'Sum': 230389, 'Average': 4607.78, 'Max': 9895, 'Min': 312}
+"""

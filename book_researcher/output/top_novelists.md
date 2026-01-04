@@ -1,0 +1,1 @@
+A concise Markdown summary of top novelists and their upcoming books is provided above.
